@@ -1,0 +1,25 @@
+
+https://tour.golang.org/welcome/4
+package main
+
+import (
+	"fmt"
+	"time"
+	"reflect"
+)
+
+func main() {
+	var x = "test str"
+	fmt.Println("Welcome to the playground!")
+	x = "test str"
+	fmt.Println("The time is", time.Now())
+	fmt.Println("x is", x)
+	fmt.Println("x is", reflect.TypeOf(x))
+}
+
+
+
+a = 9
+b = "987"
+c =  b + a
+alert("c: " + c)
